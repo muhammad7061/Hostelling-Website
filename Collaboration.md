@@ -64,9 +64,14 @@ Clone repo → Create branch → Make changes → Git status → Git add → Git
 
 | Task | Description | Status |
 |-----|------------|--------|
-| Assigned Task 1 | Example: Research & requirements analysis | Pending |
-| Assigned Task 2 | Example: Documentation / README | Pending |
-| Assigned Task 3 | Example: Testing and review | Pending |
+| Assigned Task 1 | Example: navbar |  done  |
+| Assigned Task 2 | Example: hero + footer  | Pending |
+| Assigned Task 3 | Example:  join hi | Pending |
+| Assigned Task 4 | Example:  ourmission  | Pending |
+
+
+
+
 
 ---
 
