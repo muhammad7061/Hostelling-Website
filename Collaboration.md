@@ -79,9 +79,9 @@ Clone repo → Create branch → Make changes → Git status → Git add → Git
 
 | Task | Description | Status |
 |-----|------------|--------|
-| Assigned Task 1 | Example: Core implementation / coding | Pending |
-| Assigned Task 2 | Example: Feature development | Pending |
-| Assigned Task 3 | Example: Bug fixing & optimization | Pending |
+| Assigned Task 1 | Page: HI Blog | Pending |
+| Assigned Task 2 | Page: Contact | Not Started |
+| Assigned Task 3 | Page: Mission | Not Started |
 
 ---
 
