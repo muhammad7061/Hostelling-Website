@@ -22,7 +22,7 @@ const BlogCard = ({ data }) => {
           {data.title}
         </h2>
 
-        {/* Meta */}
+        {/* Info */}
         <div className="flex items-center gap-4 text-[#adadad] text-xs leading-[1.3]">
           <div className="flex items-center gap-1">
             <Clock size={16} />
