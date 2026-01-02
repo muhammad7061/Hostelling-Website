@@ -1,7 +1,7 @@
-export const blogs = [
+export const Blogs = [
   // Blog 1
   {
-    id: "uncover-portugal",
+    id: "uncover-portugal-hi",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/12/Peneda-Geres-National-Park-Blog-post-images-1200-x-800-px.png",
     title: "Uncover The Heart and Soul of Portugal with Hostelling International",
     date: "December 17, 2025",
@@ -19,7 +19,7 @@ export const blogs = [
   },
   // Blog 2
   {
-    id: "naturaleza-conectada",
+    id: "naturaleza-conectada-ecotourism",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/12/Naturaleza-Conectada_PIC-1.jpeg",
     title:
       "Naturaleza Conectada – Smart, Accessible & Positive Impact Ecotourism",
@@ -37,7 +37,7 @@ export const blogs = [
   },
   // Blog 3
   {
-    id: "uncover-portugal",
+    id: "festive-fun-for-everyone",
     img: "https://blog.hihostels.com/wp-content/uploads/2018/10/Blog-post-images-1200-x-800-px-1920x1280.png",
     title: "⛄Festive Fun For Everyone 🌞",
     date: "December 5, 2025",
@@ -55,7 +55,7 @@ export const blogs = [
   },
   // Blog 4
   {
-    id: "uncover-portugal",
+    id: "top-danish-destinations",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/11/Denmark-Newsletter1200-x-800-px.png",
     title: "Top Danish Destinations You Can’t Miss",
     date: "November 13, 2025",
@@ -72,7 +72,7 @@ export const blogs = [
   },
   // Blog 5
   {
-    id: "uncover-portugal",
+    id: "stay-connected-travel-freely",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/10/Untitled-800-x-419-px-6.png",
     title: "Stay Connected, Travel Freely, For Seamless Global Connectivity",
     date: "October 17, 2025",
@@ -90,7 +90,7 @@ export const blogs = [
   },
   // Blog 6
   {
-    id: "uncover-portugal",
+    id: "say-hi-to-belgium",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/10/Leuven-Flanders-Region-Free-Canva-Teams-1200-x-800-px.png",
     title: "Say HI to Belgium, One Hostel at a Time",
     date: "October 9, 2025",
@@ -107,7 +107,7 @@ export const blogs = [
   },
   // Blog 7
   {
-    id: "uncover-portugal",
+    id: "play-for-peace",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/08/Newsletter-graphics-1200-x-800-px-2.png",
     title: "Play For Peace: Time To Level Up!",
     date: "August 28, 2025",
@@ -124,7 +124,7 @@ export const blogs = [
   },
   // Blog 8
   {
-    id: "uncover-portugal",
+    id: "east-to-west-usa-adventures",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/08/photo-collage-map-USA.png",
     title: "East To West USA Adventures With Hostelling International",
     date: "August 21, 2025",
@@ -142,7 +142,7 @@ export const blogs = [
   },
   // Blog 9
   {
-    id: "uncover-portugal",
+    id: "eco-friendly-remote-work-hubsuncover-portugal",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/07/Digital-Nomad-Work-Table-Free-for-Canva-Teams.png",
     title: "Our Top Eco-Friendly Remote Work Hubs",
     date: "August 14, 2025",
@@ -159,7 +159,7 @@ export const blogs = [
   },
   // Blog 10
   {
-    id: "uncover-portugal",
+    id: "summer-adventures-switzerlanduncover-portugal",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/07/Woman-TRavelling-In-Switzerland-Free-forCanva.png",
     title: "Summer Adventures In Switzerland",
     date: "July 24, 2025",
@@ -177,7 +177,7 @@ export const blogs = [
   },
   // Blog 11
   {
-    id: "uncover-portugal",
+    id: "explore-without-luggage-bounce",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/07/Untitled-800-x-419-px-21.png",
     title: "Discover The Freedom Of Exploring Without Luggage – Bounce",
     date: "July 16, 2025",
@@ -194,7 +194,7 @@ export const blogs = [
   },
   // Blog 12
   {
-    id: "uncover-portugal",
+    id: "backpackers-dream-canada",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/06/Lake-and-Mountain-Free-Canva-Banff-National-Park.png",
     title: "A Backpacker’s Dream Across Canada",
     date: "June 16, 2025",
@@ -212,7 +212,7 @@ export const blogs = [
   },
   // Blog 13
   {
-    id: "uncover-portugal",
+    id: "discover-france-best-regions",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/05/1200-X-400-site-web-8-1.png-c.png.webp",
     title: "Discover France’s Best Regions With Hostelling International",
     date: "May 28, 2025",
@@ -230,7 +230,7 @@ export const blogs = [
   },
   // Blog 14
   {
-    id: "uncover-portugal",
+    id: "budget-travel-with-freetour",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/05/Untitled-800-x-419-px-17.png",
     title: "Experience The World On A Budget With FREETOUR.COM",
     date: "May 23, 2025",
@@ -248,7 +248,7 @@ export const blogs = [
   },
   // Blog 15
   {
-    id: "uncover-portugal",
+    id: "sustainable-trails-to-explore",
     img: "https://blog.hihostels.com/wp-content/uploads/2025/04/Mountain-Hiking-Boots-Free-for-Canva.png",
     title: "Sustainable Trails You Need to Explore",
     date: "May 8, 2025",
