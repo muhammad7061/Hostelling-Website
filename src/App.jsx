@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
+
 // Page Components
 import Home from './pages/Home';
 import JoinHI from './pages/JoinHI';
@@ -12,6 +13,7 @@ import Blog from './pages/Blog';
 import Mission from './pages/Mission';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
+import Groups from './pages/groups';
 
 const App = () => {
   return (
@@ -28,7 +30,8 @@ const App = () => {
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/join" element={<JoinHI />} />
-            
+            <Route path="/groups" element={<Groups />} />
+
             {/* 404 Route */}
             <Route path="*" element={<NotFound />} />
           </Routes>
