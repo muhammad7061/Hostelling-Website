@@ -99,7 +99,7 @@ const Home = () => {
   return (
     <div className="w-full overflow-hidden">
       {/* HERO SECTION */}
-      <section className="relative h-[90vh] flex items-center justify-center">
+      <section className="relative h-screen mt-6 flex items-center justify-center">
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center transition-all duration-1000"
@@ -111,13 +111,15 @@ const Home = () => {
 
         {/* Hero Content */}
         <div className="relative z-10 text-center text-white max-w-4xl px-4">
-          <h1 className="text-5xl md:text-7xl font-bold">
+          <h1 className="text-8xl md:text-7xl font-normal"
+          style={{ fontFamily: '"Londrina Sketch", sans-serif' }}>
             {heroSlides[currentSlide].title}
           </h1>
-          <h2 className="text-5xl md:text-7xl font-bold text-orange-400 mb-6">
+          <h2 className="text-8xl md:text-7xl font-normal text-orange-400 mb-6"
+           style={{ fontFamily: '"Londrina Sketch", sans-serif' }}>
             {heroSlides[currentSlide].subtitle}
           </h2>
-          <p className="text-lg md:text-xl mb-8">
+          <p className="text-lg animate-bounce [animation-delay:1s] md:text-xl mb-8">
             {heroSlides[currentSlide].text}
           </p>
           <Link
@@ -131,7 +133,7 @@ const Home = () => {
         {/* Search Bar */}
         <form
           onSubmit={handleSearch}
-          className="absolute -bottom-16 left-1/2 -translate-x-1/2 bg-white shadow-xl rounded-2xl px-6 py-6 w-[90%] max-w-5xl z-20"
+          className="absolute -bottom-16 left-1/2 -translate-x-1/2 bg-white shadow-xl rounded-2xl px-7 py-7 w-[90%] max-w-5xl z-20"
         >
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
             {/* Country */}
@@ -184,14 +186,14 @@ const Home = () => {
       <div className="h-32" />
 
      {/* HOSTELS & INSPIRATION */}
-<section className="py-20 bg-white">
+<section className="pb-8 bg-white">
   {/* TITLE */}
   <h2 className="text-4xl md:text-5xl font-bold text-center mb-14 text-orange-500">
     HOSTELS & INSPIRATION
   </h2>
 
   {/* CENTERED GRID */}
-  <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6">
+  <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-1">
     {hostelCards.map((card, idx) => (
       <div
         key={idx}
@@ -230,16 +232,16 @@ const Home = () => {
       {/* MEMBERS COUNTER SECTION */}
 <section
   ref={ref}
-  className="w-full flex flex-col md:flex-row h-auto md:h-[300px]"
+  className="w-full flex flex-col md:flex-row h-auto md:h-[430px]"
 >
   {/* LEFT SIDE */}
   <div className="w-full md:w-1/2 bg-blue-500 flex items-center justify-center">
-    <div className="px-6 py-10 md:py-0 md:px-14 text-white max-w-md text-center md:text-left">
-      <h2 className="text-3xl md:text-4xl font-bold mb-4">
+    <div className="px-1 py-10 md:py-0 md:pl-8 text-white max-w-md text-center md:text-left">
+      <h2 className="text-[45px] font-bold mb-4">
         {count.toLocaleString()} Members
       </h2>
 
-      <p className="text-sm md:text-base mb-6 leading-relaxed">
+      <p className="text-sm md:text-[30px] mb-6 leading-relaxed">
         Join our community of travellers with more than 2.63 million members
         from around the world.
       </p>

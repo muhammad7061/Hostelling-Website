@@ -7,25 +7,25 @@ const Navbar = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-white border-b z-50">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[80%] mx-auto">
         <div className="h-16 flex items-center justify-between">
 
           {/* LOGO */}
           <Link to="/" className="flex items-center gap-3">
             <img
-              src="/assets/logo.webp"
+              src={`https://hihostels.com/wp-content/webp-express/webp-images/uploads/2022/07/hostellinginternational_logo_dark_transparent-768x157.png.webp`}
               alt="Hostelling International"
-              className="w-9 h-9 object-contain"
+              className="w-auto h-12 object-contain"
             />
 
-            <div className="leading-tight">
+            {/* <div className="leading-tight">
               <p className="text-sm font-bold text-gray-900">
                 Hostelling International
               </p>
               <p className="text-[11px] text-orange-500">
                 Discover the real hostel experience
               </p>
-            </div>
+            </div> */}
           </Link>
 
           {/* DESKTOP MENU */}
